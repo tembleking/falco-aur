@@ -1,0 +1,11 @@
+[Unit]
+Description=Container Native Runtime Security
+
+[Service]
+ExecStart=/usr/bin/falco
+ExecReload=/usr/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -10,7 +10,9 @@ pkgbase = falco
 	backup = etc/falco/falco.yaml
 	backup = etc/falco/falco_rules.local.yaml
 	source = http://download.draios.com/stable/deb/stable-amd64/falco-0.12.1-x86_64.deb
+	source = falco.service
 	md5sums = be87172a87bfb2fe55e5d0658499d6b0
+	md5sums = 7b813b38451df571352ea21d419a15fb
 
 pkgname = falco
 
